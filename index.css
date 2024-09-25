@@ -1,0 +1,191 @@
+@import url(./fonts/fonts.css);
+
+body {
+  margin: 0;
+}
+
+.page {
+  background-image: url(./images/arabesca-background.jpg);
+  background-size: calc(40%);
+  margin: 0;
+}
+
+.page__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.page__section {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  max-width: 900px;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.header__main-image {
+  background-image: url(./images/arab-cafe.jpg);
+}
+
+.header__content {
+}
+
+.header__images {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.header__image {
+  width: 120px;
+  height: 120px;
+  padding-top: 25px;
+  z-index: 1;
+}
+
+.header__image-2 {
+  width: 160px;
+  height: 160px;
+  border-radius: 20%;
+  opacity: 70%;
+  border: solid 4px brown;
+  object-fit: cover;
+}
+.header__image-3 {
+  width: 160px;
+  height: 160px;
+  border-radius: 20%;
+  opacity: 70%;
+  border: solid 4px brown;
+  object-fit: cover;
+}
+
+.header__circle_animation_blurred {
+  animation: pulsate 2s ease-in-out infinite;
+}
+
+.header__title {
+  font-size: 88px;
+  text-align: center;
+  font-weight: 900;
+  font-family: "RubikMoonRocks";
+  margin: 0;
+}
+
+.header__title-two {
+  font-size: 48px;
+  color: brown;
+  text-shadow: 2px 3px 2px brown;
+}
+
+.header__title-two {
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.card__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: 0;
+  object-fit: cover;
+  position: relative;
+  top: 120px;
+}
+
+.card__title {
+  font-weight: 800;
+  font-size: 42px;
+  font-family: "RubikMoonRocks";
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: rgba(223, 216, 22, 0.851);
+  text-shadow: 1px 4px 8px rgb(13, 13, 1);
+  margin: 0;
+  position: relative;
+  bottom: 60px;
+  text-decoration: underline overline;
+}
+
+.card__list-items {
+  list-style: none;
+  padding: 0;
+}
+
+.card__list-item {
+  display: flex;
+  margin-bottom: 10px;
+  font-family: "NewTegomin";
+  font-weight: 600;
+  text-shadow: 1px 1px 1px brown;
+  font-size: 22px;
+}
+
+.card__list-items_pseudo {
+  position: relative;
+  top: 50px;
+}
+
+.card__list-item-paragraph {
+  margin: 0 0 5px;
+  font-size: 16px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 7px gray;
+}
+
+span {
+  color: red;
+}
+
+.card__list-divider {
+  border-bottom: 4px brown dotted;
+  flex-grow: 1;
+}
+
+.card__description-title {
+  font-family: "RubikMoonRocks";
+}
+
+.card__description-paragraph {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 7px gray;
+}
+
+@keyframes pulsate {
+  100% {
+    transform: scale(1.5);
+  }
+}
