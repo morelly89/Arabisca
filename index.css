@@ -202,23 +202,23 @@ span {
   }
 
   .header__image {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     padding-top: 0;
     z-index: 1;
   }
 
   .header__image-2 {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 20%;
     opacity: 70%;
     border: solid 4px brown;
     object-fit: cover;
   }
   .header__image-3 {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 20%;
     opacity: 70%;
     border: solid 4px brown;
